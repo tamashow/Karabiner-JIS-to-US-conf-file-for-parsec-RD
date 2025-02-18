@@ -403,10 +403,7 @@
                     "type": "frontmost_application_if"
                 }
             ],
-            "from": {
-                "key_code": "international1"
-                 }
-            },
+            "from": { "key_code": "international1" },
             "to": [
                 {
                     "key_code": "hyphen",
