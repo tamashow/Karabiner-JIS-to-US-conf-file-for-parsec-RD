@@ -1,0 +1,419 @@
+{
+    "description": "Karabiner JIS to US conf file for parsec RD",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "2",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "quote",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "6",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "7",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "7",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [{ "key_code": "quote" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "8",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "9",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "8",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "9",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "9",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "0",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "hyphen",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [{ "key_code": "equal_sign" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "key_code": "equal_sign" },
+            "to": [
+                {
+                    "key_code": "6",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "equal_sign",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "grave_accent_and_tilde",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "key_code": "international3" },
+            "to": [{ "key_code": "backslash" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "international3",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "backslash",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "international3",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "backslash",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "open_bracket",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [{ "key_code": "grave_accent_and_tilde" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "key_code": "open_bracket" },
+            "to": [
+                {
+                    "key_code": "2",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "close_bracket",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "open_bracket",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "key_code": "close_bracket" },
+            "to": [{ "key_code": "open_bracket" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "semicolon",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "equal_sign",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "quote",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "8",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "key_code": "quote" },
+            "to": [
+                {
+                    "key_code": "semicolon",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "backslash",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "close_bracket",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": { "key_code": "backslash" },
+            "to": [{ "key_code": "close_bracket" }],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "bundle_identifiers": [
+                        "^tv\\.parsec\\.www$"
+                    ],
+                    "type": "frontmost_application_if"
+                }
+            ],
+            "from": {
+                "key_code": "international1",
+                "modifiers": { "mandatory": ["left_shift"] }
+            },
+            "to": [
+                {
+                    "key_code": "hyphen",
+                    "modifiers": ["shift"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
