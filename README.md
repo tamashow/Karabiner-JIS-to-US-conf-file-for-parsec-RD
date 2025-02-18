@@ -1,0 +1,1 @@
+# Karabiner-JIS-to-US-conf-file-for-parsec-RD
